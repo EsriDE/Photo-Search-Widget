@@ -1,6 +1,6 @@
-# PhotoSearch widget
+# PhotoSearch Widget
 
-The *PhotoSearch* widget for the [Web AppBuilder for ArcGIS](https://developers.arcgis.com/web-appbuilder/) allows users to search for Flickr photos and display the them on the map.
+The *PhotoSearch* widget for the [Web AppBuilder for ArcGIS](https://developers.arcgis.com/web-appbuilder/) allows users to search for Flickr photos and display them on the map.
 
 ## Use Case
 
@@ -24,7 +24,7 @@ This widget helps to easily plan holidays and trips. Search for photos such as f
 
 In order to use, develop and test the Photo-Search-Widget you need to deploy the widget directory *PhotoSearch* to the stemapp/widgets directory in your Web AppBuilder installation.
 
-For more ressources on developing and modifying widgets please visit [Web AppBuilder for ArcGIS Documentation](http://doc.arcgis.com/en/web-appbuilder/)
+For more ressources on developing and modifying widgets please visit [Web AppBuilder for ArcGIS (Developer Edition)](https://developers.arcgis.com/web-appbuilder/)
 
 ##References
 
