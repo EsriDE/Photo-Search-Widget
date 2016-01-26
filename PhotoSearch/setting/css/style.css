@@ -1,0 +1,7 @@
+.jimu-widget-photo-search-setting input, .jimu-widget-photo-search-setting select{
+	width: 200px;
+}
+
+.jimu-widget-photo-search-setting td:first-child{
+	width: 240px;
+}

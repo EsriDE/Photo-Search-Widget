@@ -1,0 +1,41 @@
+<div>
+	<table>
+		<tr>
+			<td>
+				<label>${nls.flickrKeyLabel}</label>
+			</td>
+			<td>
+				<input data-dojo-attach-point="settingNodeFlickrKey" type="text" class="dijitTextBox"/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>${nls.searchTermLabel}</label>
+			</td>
+			<td>
+				<input data-dojo-attach-point="settingNodeSearchTerm" type="text" class="dijitTextBox" value="${config.searchTerm}"/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>${nls.timeLabel}</label>
+			</td>
+			<td>
+				<select data-dojo-attach-point="settingNodeTime" class="dijitSelect">
+				<option value="${config.time_today}">${nls.timeLabel_today}</option>
+				<option value="${config.time_this_week}">${nls.timeLabel_this_week}</option>
+				<option value="${config.time_this_month}">${nls.timeLabel_this_month}</option>
+				<option value="${config.time_all_time}">${nls.timeLabel_all_time}</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label>${nls.switchViewAtScaleLabel}</label>
+			</td>
+			<td>
+				<input data-dojo-attach-point="settingNodeSwitchViewAtScale" type="text" class="dijitTextBox" value="${config.switchViewAtScale}"/>
+			</td>
+		</tr>
+	</table>
+</div>

@@ -1,0 +1,10 @@
+.photo-search-popup{
+	padding: 5px;
+}
+
+.photo-search-popup .title, 
+.photo-search-popup .ownername, 
+.photo-search-popup .descriptionText{
+	font-weight: bold;
+	padding-bottom: 5px;
+}

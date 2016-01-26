@@ -1,0 +1,28 @@
+<div>
+	<table>
+	<tr>
+		<td>
+			<label>${nls.searchTermLabel}</label>
+		</td>
+		<td>
+			<input data-dojo-attach-point="searchTermNode" type="text" value="${config.searchTerm}" class="dijitTextBox"/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label>${nls.timeLabel}</label>
+		</td>
+		<td>
+			<select data-dojo-attach-point="timeNode" class="dijitSelect">
+				<option value="${config.time_today}">${nls.timeLabel_today}</option>
+				<option value="${config.time_this_week}">${nls.timeLabel_this_week}</option>
+				<option value="${config.time_this_month}">${nls.timeLabel_this_month}</option>
+				<option value="${config.time_all_time}">${nls.timeLabel_all_time}</option>
+			</select>
+		</td>
+	</tr>
+	</table>
+	<div data-dojo-attach-event="onclick:onSearchClicked" class="jimu-btn">${nls.searchLabel}</div>
+	<br/>
+	<span data-dojo-attach-point="statusNode"></span> ${nls.statusLabel}
+</div>

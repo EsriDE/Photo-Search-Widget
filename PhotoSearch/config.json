@@ -1,0 +1,9 @@
+{
+	"time": "all_time",
+	"time_today": "today",
+	"time_this_week": "this_week",
+	"time_this_month": "this_month",
+	"time_all_time": "all_time",
+	"searchTerm": "",
+	"switchViewAtScale": 50000
+}

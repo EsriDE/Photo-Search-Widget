@@ -1,0 +1,9 @@
+@import url("FlickrLayer.css");
+
+.jimu-widget-photo-search input, .jimu-widget-photo-search select{
+	width: 200px;
+}
+
+.jimu-widget-photo-search td:first-child{
+	width: 120px;
+}
