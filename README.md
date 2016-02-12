@@ -2,6 +2,8 @@
 
 The *PhotoSearch* widget for the [Web AppBuilder for ArcGIS](https://developers.arcgis.com/web-appbuilder/) allows users to search for Flickr photos and display them on the map.
 
+![PhotoSearch Widget](./Doc/PhotoSearchWidget.png "")
+
 ## Use Case
 
 This widget helps to easily plan holidays and trips. Search for photos such as for hiking or canoeing. Geotagged photos who's title, description or tags contain the search text will be be displayed on the map. Make a selection by deleting photos from the map.
